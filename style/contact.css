@@ -1,0 +1,282 @@
+:root {
+--background:#200ab2;
+--background1:#FFF;
+--orange:#b85700;
+--pastel:#ffcb9c;
+--nightblue:#0e1538;
+--blue: #007bff;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #e83e8c;
+--red: #dc3545;
+--yellow: #ffc107;
+--green: #28a745;
+--teal: #20c997;
+--cyan: #17a2b8;
+--white: #fff;
+--gray: #868e96;
+--gray-dark: #343a40;
+--primary: #007bff;
+--secondary: #868e96;
+--success: #28a745;
+--info: #17a2b8;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40;
+} 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.menu{
+    display: flex;
+    width: 250px;
+    height: 100px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border: 5px solid var(--white);
+    margin-top: 5em;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.menu{
+    display: flex;
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    font-size: 38px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--background1);
+    font-family: 'Nunito Sans', sans-serif;
+    -webkit-text-stroke: 3px var(--background1);
+}
+footer{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    min-height: 40vh;
+    padding: 80px;
+    padding-left: 500px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container {
+    background: #FFF;
+    width: 700px;
+    max-width: 700px;
+    padding: 25px 40px 10px 40px ;
+    box-shadow: 0px 0px 25px rgba(0,0,0,1.5);
+    border-radius: 25px;
+} 
+.container form{
+    padding: 30px 0 0 0 0;
+}
+.container form .form-row{
+    display: flex;
+    margin-top: 1.5em;
+    margin-bottom: 50px;
+}
+form .form-row .input-data{
+    width: 100%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+}
+div.form-row{
+    border: none;
+}
+.form-row .textarea{
+    height: 70px;
+}
+.input-data input, .textarea textarea{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: none;   
+    font-size: 17px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.30);
+    font-family: 'Poppins', sans-serif;
+}
+.textarea textarea{
+    resize: none;
+    padding-top: 10px;
+}
+.input-data input:focus ~ label ,.textarea textarea:focus ~ label,
+.input-data input:valid ~ label ,.textarea textarea:valid ~ label{
+    transform: translateY(-35px);
+    color: #ff7f00;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.textarea textarea:focus ~ label,
+.textarea textarea:valid ~ label{
+    transform: translateY(-20px);
+    color: #ff7f00;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.input-data label{
+    position: absolute;
+    bottom: 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    pointer-events: none;
+    transition: all 0.3s ease;   
+}
+.input-data label{
+    position: absolute;
+    bottom: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    pointer-events: none;
+}
+.textarea label{
+    width: 100%;
+    bottom: 40px;
+    background: var(--white);   
+}
+.input-data .underline {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+}
+.input-data .underline::before,
+.input-data .underline::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #ff7f00;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3 ease; 
+}
+.input-data input:focus ~ .underline::before ,.underline::after ,
+.textarea textarea:focus ~ .underline::before ,.underline::after ,
+.input-data input:valid ~ .underline::before ,.underline::after ,
+.textarea textarea:valid ~ .underline::before ,.underline::after {
+    transform: scaleX(1);
+}
+.topfooter, .topfooter h4,.topfooter .material-symbols-outlined  {
+    display: flex;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #ff7f00;
+}
+.topfooter h4{
+    color: rgba(0, 0, 0, 0.50);
+}
+h4 {
+    font-family: 'Poppins', sans-serif;
+}
+.submit-btn {
+    position: relative;
+    justify-content: center;
+}
+.submit-btn .input-data {
+    height: 55px!important;
+    width: 32%!important;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+.submit-btn .input-data .inner {
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -200%;
+    background: -webkit-linear-gradient(right,var(--pastel),var(--orange),var(--pastel) 55%,var(--orange) 65%);
+    transition: all 0.5s;
+}
+.submit-btn .input-data:hover .inner {
+    left: 0;
+}
+.submit-btn .input-data input {
+    position: relative;
+    z-index: 2;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.submit-btn .input-data input:hover {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 900;
+    transition: all .2s;
+}
+.middle {
+    position: relative;
+    height: 465px;
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 3px;
+    border: 3px solid var(--orange);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 13px 17px 10px 10px rgba(0,0,0,0.5);;
+}
+.icons {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-decoration: none;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 20px;
+    border-radius: 30%;
+    border: 2px solid var(--white);
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5);
+    color: var(--orange);
+    overflow: hidden;
+}
+.icons i {
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+.icons:hover i{
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+.icons::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: var(--orange);
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.icons:hover::before{
+    animation: aaa 1s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes aaa {
+    0%{
+        left: -110%;
+        top: 90%;
+    }50%{
+        left: 10%;
+        top: -30%;
+    }100%{
+        top: -10%;
+        left: -10%;
+    }
+}
