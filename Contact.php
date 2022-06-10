@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/contact.css">
-    <link rel="stylesheet" href="./style/wave.css">
     <script src="https://kit.fontawesome.com/5c366893ff.js" crossorigin="anonymous"></script>
-    <title>Matthias Hautin</title>
+    <title>PortFolio</title>
 </head>
     <?php
         require_once "./include/fonts.php";

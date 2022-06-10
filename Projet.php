@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style/projet.css">
     <link rel="stylesheet" href="./style/card-glass.css">
     <link rel="stylesheet" href="./style/wave.css">
-    <title>Matthias Hautin</title>
+    <title>PortFolio</title>
 </head>
     <?php
         require_once "./include/icons.php";
@@ -46,9 +46,11 @@
                 </li>
             </ul>
         </top>
+        <a class="projettp1" href="https://hautin.alwaysdata.net/Airbnb/PageMain.php" target="_blank">View<br>More<br>Airbnb</a>
+        <a class="projettp2" href="http://btsio.org/2022/hautinm/Quiestce/quiestce.php" target="_blank">View<br>More<br>Erreur</a>
+        <a class="projettp3" href="http://hautin.alwaysdata.net/Graph/logo.php" target="_blank">View<br>More<br>Graph</a>
             <div class="menu">Projet</div>
                 <div class="container1">
-                <img src="./images/ProjetTp1.png" class="projettp1">
                     <div class="card" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
                         <div class="content">
                             <p1 id="nametp">tp</p1>
@@ -69,21 +71,50 @@
             <main>
                 <div id="tp" class="titre">- Projet Tp</div>
                     <div class="annee">1ére Année</div>
-                        <div class="container1">
-                            <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
+                        <div class="container1" id="containerleft">
+                            <div class="card1" id="cardleft" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
                                 <div class="content">
                                     <p1 id="nametp1">tp</p1>
                                     <div class="titre1">AirBnB</div>
-                                    <a href="https://github.com/matthiashautin/Airbnb/tree/master">Code Source</a>
+                                    <a href="https://github.com/matthiashautin/Airbnb/tree/master" target="_blank">Code Source</a>
                                 </div>
                             </div>
-                        <p3 class="right">
-                            Ce Projet à été réalisé dans le but d'apprendre a créer, modifier, manipuler une base de donées.
-                            Le langage utilisé pour constituer ma base de doneées a été le SQL avec PDO. Puis j'ai utilisé 
-                            PHP pour faire les champs obligatoires mais aussi le Create, Update, Delete. Pour finir nous avons
-                            commencé a faire de l'objet mais sur ce projet je n'ai pas fini.
-                        </p3>
+                                <p3 class="right">
+                                    Ce Projet à été réalisé dans le but d'apprendre a créer, modifier, manipuler une base de donées.
+                                    Le langage utilisé pour constituer ma base de doneées a été le SQL avec PDO. Puis j'ai utilisé 
+                                    PHP pour faire les champs obligatoires mais aussi le Create, Update, Delete. Pour finir nous avons
+                                    commencé a faire de l'objet mais sur ce projet je n'ai pas fini.
+                                </p3>
+                            </div>
+                        <div class="container1" id="containerright">
+                                <p3 class="left">
+                                    L'objectif de se TP est de créer un jeu "Qui est-ce" avec la possibilité de mentir 1 fois afin 
+                                    de créer une réponse erronée. En effet la personne doit garder en mémoire un personnage choisi.
+                                    Puis répondre au question posé avec la possibilité de faire une erreur. La finalité de se TP est 
+                                    de réalise de l'objet ainsi est que de la gestion d'erreur. Tout cela tourné sous la forme 
+                                    d'un jeu. 
+                                </p3>
+                            <div class="card1" id="cardright" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
+                                <div class="content">
+                                    <p1 id="nametp1">tp</p1>
+                                    <div class="titre1">Erreur</div>
+                                    <a href="https://github.com/matthiashautin/Quiest-ce" target="_blank">Code Source</a>
+                                </div>
+                            </div>
                         </div>
+                        <div class="container1" id="containerleft">
+                            <div class="card1" id="cardleft" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
+                                <div class="content">
+                                    <p1 id="nametp1">tp</p1>
+                                    <div class="titre1">Graph</div>
+                                    <a href="https://github.com/matthiashautin/gd/tree/master" target="_blank">Code Source</a>
+                                </div>
+                            </div>
+                                <p3 class="right">
+                                    Dans se TP j'ai appris à utiliser la librairie GD que propose PHP. Le but était de créer un logo.
+                                    Cela m'a permis de me familiariser avec une nouvelle librairie. Pas si simple à gerer au début.
+                                </p3>
+                            </div>
                     <div class="annee">2éme Année</div>
                         <div class="container1">
                             <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">

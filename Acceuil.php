@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/wave.css">
     <link rel="stylesheet" href="./style/acceuil.css">
-    <link rel="stylesheet" href="./style/acceuil.css">
     <?php
         require_once "./include/icons.php";
         require_once "./include/fonts.php";
     ?>
-    <title>Matthias Hautin</title>
+    <title>PortFolio</title>
 </head>
     <body>
         <top>

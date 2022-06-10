@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/techno.css">
-    <title>Matthias Hautin</title>
+    <title>PortFolio</title>
 </head>
     <?php
         require_once "./include/icons.php";

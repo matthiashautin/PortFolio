@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/profil.css">
     <link rel="stylesheet" href="./style/wave.css">
-    <title>Matthias Hautin</title>
+    <title>PortFolio</title>
 </head>
     <?php
         require_once "./include/fonts.php";
