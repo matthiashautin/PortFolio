@@ -6,13 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/contact.css">
+    <link rel="shortcut icon" href="./gd/mh.php">
     <script src="https://kit.fontawesome.com/5c366893ff.js" crossorigin="anonymous"></script>
     <title>PortFolio</title>
 </head>
-    <?php
-        require_once "./include/fonts.php";
-        require_once "./include/icons.php";
-    ?>
+<?php
+    require_once "./include/fonts.php";
+    require_once "./include/icons.php";
+    require_once "./include/function.php";   
+?>
+<?php
+    if((isset($_GET['action']) && $_GET['action']=="send")){
+        $nom= $prenom = $email = $message ="";
+        $nomE = $prenomE = $emailE = $messageE ="";
+        $isErr=false;
+        if((isset($_POST['Envoyer']))){
+            //var_dump($_POST);
+            if (empty($_POST["Nom"])){
+                $nomE = "*";
+                $isErr=true;
+            }
+            else{
+                $nom = test_input($_POST["Nom"]);
+            }
+
+            if (empty($_POST["Prenom"])){
+                $prenomE = "*";
+                $isErr=true;
+            }
+            else{
+                $prenom = test_input($_POST["Prenom"]);
+            }
+
+            if (empty($_POST["Email"])){
+                $emailE = "*";
+                $isErr=true;
+            }
+            else{
+                $email = test_input($_POST["Email"]);
+            }
+            if (empty($_POST["Message"])){
+                $messageE = "*";
+                $isErr=true;
+            }
+            else{
+                $message = test_input($_POST["Message"]);
+            }
+
+            $d = new DateTime();
+            $date = $d->format('Y-m-d');
+            $pdo=null;
+
+        require_once "./include/dbConn.php";    
+            try{
+                $sql = "INSERT INTO users (ID, Nom, Prenom, Email, Message) VALUES
+                (:ID, :Nom, :Prenom, :Email, :Message)";
+                $stmt = $conn->prepare($sql);
+                $stmt->bindParam(':ID', $id);
+                $stmt->bindParam(':Nom', $nom);
+                $stmt->bindParam(':Prenom', $prenom);
+                $stmt->bindParam(':Email', $email);
+                $stmt->bindParam(':Message', $message);
+
+                $stmt->execute();
+                echo "$ConnMessage";
+            } catch(PDOException $e){
+                die("ERROR: Could not able to execute $sql. " . $e->getMessage());
+            }
+        }
+    }
+?>
     <body>
         <top>
         <img id="fond" src="images/background1.jpg">
@@ -52,29 +115,29 @@
                     <span class="material-symbols-outlined">mail</span>
                     <h4>matthiashautin@gmail.com</h4>
                 </div>
-                <form action="#">
+                <form action="Contact.php?action=send" method="post">
                     <div class="form-row">
                         <div class="input-data">
-                            <input type="text" required>
-                            <div class="underline"></div>
+                            <input type="text" name="Nom" id="Nom" required>
+                            <div class="underline"></div> 
                             <label>Nom</label>
                         </div>
                         <div class="input-data">
-                            <input type="text" required>
+                            <input type="text" name="Prenom" id="Prenom" required>
                             <div class="underline"></div>
                             <label>Prénom</label>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="input-data">
-                            <input type="text" required>
+                            <input type="text" name="Email" id="Email" required>
                             <div class="underline"></div>
                             <label>Adresse Email</label>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="input-data textarea">
-                            <textarea cols="30" rows="10" required></textarea>
+                            <input cols="30" rows="10" name="Message" id="Message" required>
                             <div class="underline"></div>
                             <label>Votre Message</label>
                         </div>
@@ -82,7 +145,7 @@
                     <div class="form-row submit-btn">
                         <div class="input-data">
                             <div class="inner"></div>
-                                <input type="submit" value="Envoyer">
+                                <input type="submit" name="Envoyer" value="Envoyer">
                             </div>
                         </div>
                     </form>

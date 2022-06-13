@@ -124,10 +124,10 @@ p1 {
         position: absolute;
         width: 773px;
         height: 650px;
-        top: 115%;
+        top: 116%;
         right: 0;
-        clip-path: circle(36% at right  18%);
-        background: linear-gradient(var(--orange), var(--pastel) 55%);
+        clip-path: circle(27% at 100% 40%);
+        background: linear-gradient(var(--orange), var(--pastel) 90%);
         transition: .7s ease 2s;
         text-decoration: none;
         text-transform: uppercase;
@@ -140,8 +140,8 @@ p1 {
         z-index: 999;
     }
     .projettp1:hover {
-        clip-path: circle(55% at right 17%);
-        background: linear-gradient(var(--orange), var(--pastel) 80%);
+        clip-path: circle(50% at 100% 50%);
+        background: linear-gradient(var(--orange), var(--pastel) 100%);
         transition: ease .7s;
     }
 
@@ -150,10 +150,10 @@ p1 {
         position: absolute;
         width: 773px;
         height: 650px;
-        top: 170%;
+        top: 168%;
         left: 0;
-        clip-path: circle(36% at left 18%);
-        background: linear-gradient(var(--orange), var(--pastel) 55%);
+        clip-path: circle(27% at 0% 40%);
+        background: linear-gradient(var(--orange), var(--pastel) 90%);
         transition: .7s ease 2s;
         text-decoration: none;
         text-transform: uppercase;
@@ -166,8 +166,8 @@ p1 {
         z-index: 999;
     }
     .projettp2:hover {
-        clip-path: circle(55% at left 17%);
-        background: linear-gradient(var(--orange), var(--pastel) 80%);
+        clip-path: circle(50% at 0% 50%);
+        background: linear-gradient(var(--orange), var(--pastel) 100%);
         transition: ease .7s;
     }
 
@@ -176,10 +176,10 @@ p1 {
         position: absolute;
         width: 773px;
         height: 650px;
-        top: 215%;
+        top: 208%;
         right: 0;
-        clip-path: circle(36% at right  18%);
-        background: linear-gradient(var(--orange), var(--pastel) 55%);
+        clip-path: circle(27% at 100% 40%);
+        background: linear-gradient(var(--orange), var(--pastel) 90%);
         transition: .7s ease 2s;
         text-decoration: none;
         text-transform: uppercase;
@@ -189,11 +189,12 @@ p1 {
         color: rgba(255, 255, 255, .2);
         font-size: 90px;
         line-height: 100px;
+        border-color: 6px solid rgb(3, 0, 0);
         z-index: 999;
     }
     .projettp3:hover {
-        clip-path: circle(55% at right 17%);
-        background: linear-gradient(var(--orange), var(--pastel) 80%);
+        clip-path: circle(50% at 100% 50%);
+        background: linear-gradient(var(--orange), var(--pastel) 100%);
         transition: ease .7s;
     }
 

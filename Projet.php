@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style/projet.css">
     <link rel="stylesheet" href="./style/card-glass.css">
     <link rel="stylesheet" href="./style/wave.css">
+    <link rel="shortcut icon" href="./gd/mh.php">
     <title>PortFolio</title>
 </head>
     <?php
@@ -46,16 +47,16 @@
                 </li>
             </ul>
         </top>
-        <a class="projettp1" href="https://hautin.alwaysdata.net/Airbnb/PageMain.php" target="_blank">View<br>More<br>Airbnb</a>
-        <a class="projettp2" href="http://btsio.org/2022/hautinm/Quiestce/quiestce.php" target="_blank">View<br>More<br>Erreur</a>
-        <a class="projettp3" href="http://hautin.alwaysdata.net/Graph/logo.php" target="_blank">View<br>More<br>Graph</a>
+        <a class="projettp1" href="https://hautin.alwaysdata.net/Airbnb/PageMain.php" target="_blank"><br>View<br>More<br>Airbnb</a>
+        <a class="projettp2" href="http://btsio.org/2022/hautinm/Quiestce/quiestce.php" target="_blank"><br>View<br>More<br>Erreur</a>
+        <a class="projettp3" href="http://hautin.alwaysdata.net/Graph/logo.php" target="_blank"><br>View<br>More<br>Graph</a>
             <div class="menu">Projet</div>
                 <div class="container1">
                     <div class="card" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
                         <div class="content">
                             <p1 id="nametp">tp</p1>
                             <div class="titre">Projet Tp</div>
-                            <div class="TP">Réalisé au cours de mes deux années lors de divers Travaux Pratique</div>
+                            <div class="TP">Réalisé au cours de ma formation lors de Travaux Pratique et en Personnel</div>
                                 <a href="#tp">En Savoir Plus</a>
                         </div>
                     </div>
@@ -80,19 +81,18 @@
                                 </div>
                             </div>
                                 <p3 class="right">
-                                    Ce Projet à été réalisé dans le but d'apprendre a créer, modifier, manipuler une base de donées.
-                                    Le langage utilisé pour constituer ma base de doneées a été le SQL avec PDO. Puis j'ai utilisé 
+                                    Ce projet a été réalisé dans le but d'apprendre à créer, modifier, manipuler une base de données.
+                                    Le langage utilisé pour constituer ma base de données a été le SQL avec PDO. Puis j'ai utilisé 
                                     PHP pour faire les champs obligatoires mais aussi le Create, Update, Delete. Pour finir nous avons
-                                    commencé a faire de l'objet mais sur ce projet je n'ai pas fini.
+                                    commencé à faire de l'objet mais sur ce projet je n'ai pas fini.
                                 </p3>
                             </div>
                         <div class="container1" id="containerright">
-                                <p3 class="left">
-                                    L'objectif de se TP est de créer un jeu "Qui est-ce" avec la possibilité de mentir 1 fois afin 
-                                    de créer une réponse erronée. En effet la personne doit garder en mémoire un personnage choisi.
-                                    Puis répondre au question posé avec la possibilité de faire une erreur. La finalité de se TP est 
-                                    de réalise de l'objet ainsi est que de la gestion d'erreur. Tout cela tourné sous la forme 
-                                    d'un jeu. 
+                                <p3 class="left">L'objectif de ce TP est de créer un jeu "qui est-ce" avec la possibilité de mentir 1 fois 
+                                    afin de créer une réponse erronée. En effet la personne doit garder en mémoire un personnage choisi. 
+                                    Puis répondre aux questions posées avec la possibilité de faire une erreur. La finalité de ce TP est 
+                                    Se réalise de l'objet ainsi est que de la gestion d'erreur. Tout cela tourné sous la forme 
+                                    d'un jeu.
                                 </p3>
                             <div class="card1" id="cardright" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
                                 <div class="content">
@@ -111,10 +111,24 @@
                                 </div>
                             </div>
                                 <p3 class="right">
-                                    Dans se TP j'ai appris à utiliser la librairie GD que propose PHP. Le but était de créer un logo.
-                                    Cela m'a permis de me familiariser avec une nouvelle librairie. Pas si simple à gerer au début.
+                                    Dans ce TP j'ai appris à utiliser la librairie GD que propose PHP. Le but était de créer un logo.
+                                    Cela m'a permis de me familiariser avec une nouvelle librairie. Pas si simple à comprendre au 
+                                    début. Grâce a GD j'ai pu créer un logo propre à moi-même. 
                                 </p3>
                             </div>
+                            <div class="container1" id="containerright">
+                                <p3 class="left">
+                                    Ce projet à était réalisé part moi lors de mon temps libre il n'est malheureusement pas terminer
+                                    car j'ai des erreurs dans le code source.
+                                </p3>
+                            <div class="card1" id="cardright" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
+                                <div class="content">
+                                    <p1 id="nameperso">Perso</p1>
+                                    <div class="titre1">Game</div>
+                                    <a href="https://github.com/matthiashautin/Quiest-ce" target="_blank">Code Source</a>
+                                </div>
+                            </div>
+                        </div>
                     <div class="annee">2éme Année</div>
                         <div class="container1">
                             <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
@@ -211,4 +225,19 @@
             </section>
     </body>
 </html>
-
+<?php/*
+ if((isset($_GET['tp']))) {
+    echo"<main>";
+        echo"<div class='titre'>- Projet Tp</div>";
+            echo"<div class='annee'>- 1ére Année</div>"; 
+            echo"<div class='annee'>- 2ére Année</div>"; 
+    echo"</main>";
+    }
+if((isset($_GET['stage']))) {
+    echo"<main>";
+        echo"<div class='titre'>- Projet Stage</div>";
+            echo"<div class='annee'>- 1ére Année</div>"; 
+            echo"<div class='annee'>- 2ére Année</div>";
+    echo"</main>";
+    }*/
+?>

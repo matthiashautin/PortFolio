@@ -121,6 +121,17 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
+.container1 .card1 .content #nameperso {
+    position: absolute;
+    text-transform: uppercase;
+    top: -30px;
+    right: 10px;
+    font-size: 5em;
+    color: rgba(255,255,255,.1);
+    pointer-events: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
 .container1 .card .content p2 {
     font-size: 40px;
     font-family: 'Poppins', sans-serif;

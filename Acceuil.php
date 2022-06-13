@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/wave.css">
     <link rel="stylesheet" href="./style/acceuil.css">
+    <link rel="shortcut icon" href="./gd/mh.php">
     <?php
         require_once "./include/icons.php";
         require_once "./include/fonts.php";
@@ -19,7 +20,7 @@
             <div class="profil">
                 <img src="images/photo.jpg">
             </div>
-        <p id="auteur">Matthias<br><span class="nom">Hautin</span></p>
+                <p id="auteur">Matthias<br><span class="nom">Hautin</span></p>
             <ul>
                 <li style="--clr:#b85700">
                     <a id="lien" href="Acceuil.php" data-text="&nbsp;Accueil">&nbsp;Accueil</a>
@@ -64,5 +65,6 @@
                 <div class="wave wave3"></div>
                 <div class="wave wave4"></div>
             </section>
+           
     </body>
 </html>

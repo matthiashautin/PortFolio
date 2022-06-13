@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/profil.css">
     <link rel="stylesheet" href="./style/wave.css">
+    <link rel="shortcut icon" href="./gd/mh.php">
     <title>PortFolio</title>
 </head>
     <?php

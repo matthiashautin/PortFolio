@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/techno.css">
+    <link rel="shortcut icon" href="./gd/mh.php">
     <title>PortFolio</title>
 </head>
     <?php
