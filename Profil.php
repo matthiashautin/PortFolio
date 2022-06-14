@@ -49,24 +49,24 @@
             <div class="menu">Profil</div>
             <main>
                 <div class="titre">- a propos de moi</div>
-                    <p1>Je m'appelle Matthias Hautin, je suis âgé de 18 ans. Je suis étudiant à Noisy-Champs au lycée René Descartes,
+                    <p1>Je m'appelle Matthias Hautin, je suis âgé de 18 ans. Je suis étudiant à Noisy-Champs au lycée René Descartes;
                         actuellement en première année de BTS « SIO spécialité SLAM »
-                        Services Informatiques aux Organisations spécialité en Solutions Logicielles et Applications Métier (SLAM).
-                        Je suis intéressé par l'informatique, le développement et les nouvelles technologies depuis quelques années. C'est donc 
-                        pour cela que naturelement je me suis tourné vers des études d'informatique, de développement.
+                        Services Informatiques aux Organisations spécialité en Solutions logicielles et Applications métier (SLAM).
+                        Je suis intéressé par l'informatique, le développement et les nouvelles techniques depuis quelques années. C'est donc 
+                        pour cela que naturellement je me suis tourné vers des études d'informatique, de développement.
                         J'ai effectué mes trois années d’études en BAC PRO « Système Informatique et Numérique ».</p1>
                 <div class="titre">- Experiences Professionnelles</div>
                     <p1>
-                        J'ai pu réaliser mes divers périodes de stages dans différentes organisations disposant d’un service informatique, 
+                        J'ai pu réaliser mes diverses périodes de stage dans différentes organisations disposant d’un service informatique; 
                         durant mes années de BAC PRO ainsi que mes années de BTS. Grâce à ses organismes j'ai pu acquérir de nouvelles 
-                        compétences dans plusieurs domaines. Pendant mes périodes de stages j'ai eu la chance de travailler auprés d'informaticiens, 
-                        techniciens informatique, administrateurs réseaux, chefs de projets.J'ai réalisé mes stages à la Mairie de Noisy-Le-Grand, 
+                        compétences dans plusieurs domaines. Pendant mes périodes de stage j'ai eu la chance de travailler auprès d'informaticiens; 
+                        Technicien informatique, administrateurs réseaux, chefs de projets. J'ai réalisé mes stages à la Mairie de Noisy-Le-Grand; 
                         à la direction des douanes et droits indirects à Montreuil.
                     </p1>
                 <div class="titre">- Projet professionnel, etudes</div>   
                     <p1>
-                        Mon projet professionnel actuellement est de finir mes études de BTS. Puis je metterai tout moyen à ma disposition
-                        pour une poursuite d'études. Soit intégrer une Licence ou Licence Pro en informatique dans le domaines de la programmation.
+                        Mon projet professionnel actuellement est de finir mes études de BTS. Puis je mettrai tout moyen à ma disposition
+                        pour une poursuite d'études. Soit intégrer une Licence ou Licence pro en informatique dans le domaine de la programmation.
                         Et pour une finalité d'études je vise un Master.
                 <div class="titre">- Curriculum Vitae</div> 
                     <div class="pdf">
