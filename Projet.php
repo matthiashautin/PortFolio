@@ -118,7 +118,7 @@
                             </div>
                             <div class="container1" id="containerright">
                                 <p3 class="left">
-                                    Ce projet à était réalisé part moi lors de mon temps libre il n'est malheureusement pas terminer
+                                    Ce projet a été réalisé part moi lors de mon temps libre il n'est malheureusement pas terminé
                                     car j'ai des erreurs dans le code source.
                                 </p3>
                             <div class="card1" id="cardright" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
@@ -136,32 +136,6 @@
                                     <a href="#">En Savoir Plus</a>
                                 </div>
                             </div>
-                            <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
-                                <div class="content">
-                                    <a href="#">En Savoir Plus</a>
-                                </div>
-                            </div>
-                            <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
-                                <div class="content">
-                                    <a href="#">En Savoir Plus</a>
-                                </div>
-                            </div>
-                            <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
-                                <div class="content">
-                                    <a href="#">En Savoir Plus</a>
-                                </div>
-                            </div>
-                            <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
-                                <div class="content">
-                                    <a href="#">En Savoir Plus</a>
-                                </div>
-                            </div>
-                            <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
-                                <div class="content">
-                                    <a href="#">En Savoir Plus</a>
-                                </div>
-                            </div>
-                                </div>
                             </main>
                         <main>
                 <div id="stage" class="titre">- Projet Stage</div>
@@ -172,29 +146,9 @@
                                     <a href="#">En Savoir Plus</a>
                                 </div>
                             </div>
-                            <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
-                                <div class="content">
-                                    <a href="#">En Savoir Plus</a>
-                                </div>
-                            </div>
-                            <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
-                                <div class="content">
-                                    <a href="#">En Savoir Plus</a>
-                                </div>
-                            </div>
                         </div>
                     <div class="annee">2éme Année</div>
                         <div class="container1">
-                            <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
-                                <div class="content">
-                                    <a href="#">En Savoir Plus</a>
-                                </div>
-                            </div>
-                            <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
-                                <div class="content">
-                                    <a href="#">En Savoir Plus</a>
-                                </div>
-                            </div>
                             <div class="card1" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
                                 <div class="content">
                                     <a href="#">En Savoir Plus</a>
@@ -225,7 +179,7 @@
             </section>
     </body>
 </html>
-<?php/*
+<!--
  if((isset($_GET['tp']))) {
     echo"<main>";
         echo"<div class='titre'>- Projet Tp</div>";
@@ -239,5 +193,5 @@ if((isset($_GET['stage']))) {
             echo"<div class='annee'>- 1ére Année</div>"; 
             echo"<div class='annee'>- 2ére Année</div>";
     echo"</main>";
-    }*/
-?>
+    }
+-->

@@ -51,28 +51,23 @@
                 <div class="titre">- a propos de moi</div>
                     <p1>Je m'appelle Matthias Hautin, je suis âgé de 18 ans. Je suis étudiant à Noisy-Champs au lycée René Descartes,
                         actuellement en première année de BTS « SIO spécialité SLAM »
-                        Services Informatiques aux Organisations spécialité en Solutions Logicielles et Applications Métier.
-                        Depuis mes jeunes années, j’ai toujours été attiré par l’informatique et les nouvelles technologies. 
-                        C’est tout naturellement que je me suis tourné vers ces études, en effectuant mes trois années 
-                        d’études en BAC PRO « Système Informatique et Numérique ».</p1>
+                        Services Informatiques aux Organisations spécialité en Solutions Logicielles et Applications Métier (SLAM).
+                        Je suis intéressé par l'informatique, le développement et les nouvelles technologies depuis quelques années. C'est donc 
+                        pour cela que naturelement je me suis tourné vers des études d'informatique, de développement.
+                        J'ai effectué mes trois années d’études en BAC PRO « Système Informatique et Numérique ».</p1>
                 <div class="titre">- Experiences Professionnelles</div>
                     <p1>
-                        J’ai eu l'opportunité d’effectuer des stages en milieu professionnel, dans différentes entreprises, 
-                        disposant d’un service informatique. Les études que j’ai entreprises répondent, à une passion et à un réel
-                        intérêt pour l'innovation informatique et technologique. 
+                        J'ai pu réaliser mes divers périodes de stages dans différentes organisations disposant d’un service informatique, 
+                        durant mes années de BAC PRO ainsi que mes années de BTS. Grâce à ses organismes j'ai pu acquérir de nouvelles 
+                        compétences dans plusieurs domaines. Pendant mes périodes de stages j'ai eu la chance de travailler auprés d'informaticiens, 
+                        techniciens informatique, administrateurs réseaux, chefs de projets.J'ai réalisé mes stages à la Mairie de Noisy-Le-Grand, 
+                        à la direction des douanes et droits indirects à Montreuil.
                     </p1>
-                <div class="titre">- Projet professionnel</div>   
+                <div class="titre">- Projet professionnel, etudes</div>   
                     <p1>
-                        Mon projet professionnel aujourd’hui est de devenir « Responsable en Ingénierie Systèmes et Réseaux ».
-                        A partir du 24 septembre, j’intègre l’école supérieure des métiers CESI du Mans pour suivre durant 2 ans,
-                        une formation diplômante bac+4 afin de devenir « Responsable en Ingénierie Systèmes et Réseaux ».
-                        Je souhaite par le biais de l’apprentissage en l’alternance participer à la construction et au
-                        développement de l’entreprise, en grandissant avec elle, en apportant mes compétences, ma motivation
-                        et en partageant ma passion de la haute technologie. En participant à la mise en œuvre et l’exploitation
-                        des réseaux informatiques, téléphonique. En contribuant au bon fonctionnement des réseaux et en
-                        intervenant sur les incidents en les dépannant. En participant à la gestion et à l'administration 
-                        des réseaux.
-                    </p1>
+                        Mon projet professionnel actuellement est de finir mes études de BTS. Puis je metterai tout moyen à ma disposition
+                        pour une poursuite d'études. Soit intégrer une Licence ou Licence Pro en informatique dans le domaines de la programmation.
+                        Et pour une finalité d'études je vise un Master.
                 <div class="titre">- Curriculum Vitae</div> 
                     <div class="pdf">
                         <a class="btn-black" href="pdf/CV.pdf" target="_blank"><span class="material-symbols-outlined">visibility</span>&nbsp;Consulter CV</a>
