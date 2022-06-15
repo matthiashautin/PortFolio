@@ -57,8 +57,36 @@
                 <a class="btn" href="Profil.php">En savoir plus</a>
             </div>
             <div class="container">
-                <div class="clock"></div>
+                <div class="clock">
+                    <div class="hour">
+                        <div class="hr" id="hr"></div>
+                    </div>
+                    <div class="min">
+                        <div class="mn" id="mn"></div>
+                    </div>
+                    <div class="sec">
+                        <div class="sc" id="sc"></div>
+                    </div>
+                </div>
             </div>
+            <script type="text/javascript">
+            const deg = 12;
+            const hr = document.querySelector('#hr');
+            const mn = document.querySelector('#mn');
+            const sc = document.querySelector('#sc');
+
+            setInterval(() => {
+
+                Let day = new Date();
+                Let hh = day.getHours() * 30;
+                Let mm = day.getMinutes() * deg;
+                Let ss = day.getSeconds() * deg;
+
+                hr.style.trasnform = `rotateZ(${(hh)+(mm/12)}deg)`;
+                mn.style.trasnform = `rotateZ(${mm}deg)`;
+                sc.style.trasnform = `rotateZ(${ss}deg)`;      
+            })
+           </script>
             <section>
                 <div class="wave wave1"></div>
                 <div class="wave wave2"></div>

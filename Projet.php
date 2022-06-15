@@ -47,9 +47,9 @@
                 </li>
             </ul>
         </top>
-        <a class="projettp1" href="https://hautin.alwaysdata.net/Airbnb/PageMain.php" target="_blank"><br>View<br>More<br>Airbnb</a>
-        <a class="projettp2" href="http://btsio.org/2022/hautinm/Quiestce/quiestce.php" target="_blank"><br>View<br>More<br>Erreur</a>
-        <a class="projettp3" href="http://hautin.alwaysdata.net/Graph/logo.php" target="_blank"><br>View<br>More<br>Graph</a>
+        <a class="projettp1" href="https://hautin.alwaysdata.net/Airbnb/PageMain.php" target="_blank"><br>Voir<br>Plus<br>Airbnb</a>
+        <a class="projettp2" href="http://btsio.org/2022/hautinm/Quiestce/quiestce.php" target="_blank"><br>Voir<br>Plus<br>Erreur</a>
+        <a class="projettp3" href="http://hautin.alwaysdata.net/Graph/logo.php" target="_blank"><br>Voir<br>Plus<br>Graph</a>
             <div class="menu">Projet</div>
                 <div class="container1">
                     <div class="card" data-tilt data-tilt-reverse="true"  data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1">
