@@ -156,7 +156,7 @@
                             </div>
                         </div>
             </main>
-            <script type="text/javascript" src="vanilla-tilt.js"></script>
+            <script type="text/javascript" src="script/vanilla-tilt.js"></script>
         <script type="text/javascript">
 	        VanillaTilt.init(document.querySelector(".card"), {
 		        max: 27,

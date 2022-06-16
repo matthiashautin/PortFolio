@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style/wave.css">
     <link rel="stylesheet" href="./style/acceuil.css">
     <link rel="shortcut icon" href="./gd/mh.php">
+    <link rel="stylesheet" href="./style/clock.css">
     <?php
         require_once "./include/icons.php";
         require_once "./include/fonts.php";
@@ -46,6 +47,7 @@
                 </li>
             </ul>
         </top>
+        <container>
             <main1>
                 <div class="main1">Bienvenue,<br> sur le PortFolio de<br><span class="gras">Matthias Hautin</span></div>
             </main1>
@@ -53,40 +55,16 @@
                 <h2></h2>
                 <h3 data-text="Bts&nbsp;Sio&nbsp;Slam">Bts Sio Slam</h3>
             </div>
+                <div class="clock">
+                    <div class="needle hr" ></div>
+                    <div class="needle min"></div>
+                    <div class="needle sec"></div>
+                </div> 
+            </container>
             <div class="btn">
                 <a class="btn" href="Profil.php">En savoir plus</a>
             </div>
-            <div class="container">
-                <div class="clock">
-                    <div class="hour">
-                        <div class="hr" id="hr"></div>
-                    </div>
-                    <div class="min">
-                        <div class="mn" id="mn"></div>
-                    </div>
-                    <div class="sec">
-                        <div class="sc" id="sc"></div>
-                    </div>
-                </div>
-            </div>
-            <script type="text/javascript">
-            const deg = 12;
-            const hr = document.querySelector('#hr');
-            const mn = document.querySelector('#mn');
-            const sc = document.querySelector('#sc');
-
-            setInterval(() => {
-
-                Let day = new Date();
-                Let hh = day.getHours() * 30;
-                Let mm = day.getMinutes() * deg;
-                Let ss = day.getSeconds() * deg;
-
-                hr.style.trasnform = `rotateZ(${(hh)+(mm/12)}deg)`;
-                mn.style.trasnform = `rotateZ(${mm}deg)`;
-                sc.style.trasnform = `rotateZ(${ss}deg)`;      
-            })
-           </script>
+                <script src="script/script.js"></script>
             <section>
                 <div class="wave wave1"></div>
                 <div class="wave wave2"></div>
