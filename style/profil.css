@@ -1,6 +1,6 @@
 :root {
 --background:#200ab2;
---orange:#b85700;
+--orange:#e4202d;
 --pastel:#FFF;
 --nightblue:#0e1538;
 --blue: #007bff;
@@ -66,13 +66,13 @@ main .titre {
     font-family: 'Poppins', sans-serif;
     font-size: 37px;
     text-shadow: 
-    .1vw 0vw .1vw rgb(195, 139, 69),
-    .1vw 0vw .1vw rgb(195, 139, 69),
+    .1vw 0vw .1vw rgb(243, 79, 90),
+    .1vw 0vw .1vw rgb(243, 79, 90),
     
-    .4vw 0vw 10vw rgb(225, 147, 50),
+    .4vw 0vw 10vw #f62c3a,
 
-    .1vw 0vw 1vw rgb(240, 132, 0),
-    .50vw 0vw 20vw rgb(240, 132, 0);
+    .1vw 0vw 1vw rgb(228, 32, 45),
+    .50vw 0vw 20vw rgb(228, 32, 45);
 }
 p1 {
     text-align: justify;

@@ -1,7 +1,7 @@
 :root {
 --background:#200ab2;
 --background1:#FFF;
---orange:#b85700;
+--orange:#e4202d;
 --pastel:#ffcb9c;
 --nightblue:#0e1538;
 --blue: #007bff;
@@ -85,13 +85,13 @@ main .titre {
     font-size: 40px;
     font-weight: 900;
     text-shadow: 
-    .1vw 0vw .1vw rgb(195, 139, 69),
-    .1vw 0vw .1vw rgb(195, 139, 69),
+    .1vw 0vw .1vw rgb(243, 79, 90),
+    .1vw 0vw .1vw rgb(243, 79, 90),
     
-    .4vw 0vw 10vw rgb(225, 147, 50),
+    .4vw 0vw 10vw #f62c3a,
 
-    .1vw 0vw 1vw rgb(240, 132, 0),
-    .50vw 0vw 20vw rgb(240, 132, 0);
+    .1vw 0vw 1vw rgb(228, 32, 45),
+    .50vw 0vw 20vw rgb(228, 32, 45);
     z-index: 50;
 }
 #tp, #stage {
