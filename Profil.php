@@ -8,63 +8,69 @@
     <link rel="stylesheet" href="./style/profil.css">
     <link rel="stylesheet" href="./style/wave.css">
     <link rel="shortcut icon" href="./gd/mh.php">
-    <title>PortFolio</title>
-</head>
     <?php
         require_once "./include/fonts.php";
         require_once "./include/icons.php";
+        require_once "./include/link.php";
     ?>
+    <title>PortFolio</title>
+</head>
     <body>
         <top>
         <img id="fond" src="images/background1.jpg">
             <div class="profil">
                 <img src="images/photo.jpg">
             </div>
-        <p id="auteur">Matthias<br><span class="nom">Hautin</span></p>
-            <ul>
-                <li style="--clr:#e4202d">
-                    <a id="lien" href="home.php" data-text="&nbsp;Accueil">&nbsp;Accueil</a>
-                </li>
-                <li style="--clr:#b4030f">
-                    <a id="lien" href="Profil.php" data-text="&nbsp;Profil">&nbsp;Profil</a>
-                </li>
-                <li style="--clr:#e4202d">
-                    <a id="lien" href="BtsSio.php" data-text="&nbsp;BtsSio">&nbsp;BtsSio</a>
-                </li>
-                <li style="--clr:#e4202d">
-                    <a id="lien" href="Techno.php" data-text="&nbsp;Veille&nbsp;Techno">&nbsp;Veille&nbsp;Techno</a>
-                </li>
-                <li style="--clr:#e4202d">
-                <a class="projeth" id="lien" href="Projet.php" data-text="&nbsp;Projet">&nbsp;Projet<span class="material-symbols-outlined">expand_more</span></a>
-                        <ul1 id="projet">
-                            <li1><a href="Projet.php" data-text="&nbsp;Réalisé en cours (TP)">&nbsp;Réalisé en cours (TP)</a></li1>
-                            <li1><a href="Projet.php" data-text="&nbsp;Réalisé en stage">&nbsp;Réalisé en stage</a></li1>
-                        </ul1>
-                </li>
-                <li style="--clr:#e4202d">
-                    <a id="lien" class="contact" href="Contact.php" data-text="&nbsp;Contact">&nbsp;Contact</a>
-                </li>
-            </ul>
+                <p id="auteur">Matthias<br><span class="nom">Hautin</span></p>
+                <p1><input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fas">&#xf039;</i>
+                    </label>
+                <ul>
+                    <li style="--clr:#e4202d">
+                        <a id="lien" href="home.php" data-text="&nbsp;Accueil">&nbsp;Accueil</a>
+                    </li>
+                    <li style="--clr:#b4030f">
+                        <a id="lien" href="Profil.php" data-text="&nbsp;Profil">&nbsp;Profil</a>
+                    </li>
+                    <li style="--clr:#e4202d">
+                        <a id="lien" href="BtsSio.php" data-text="&nbsp;BtsSio">&nbsp;BtsSio</a>
+                    </li>
+                    <li style="--clr:#e4202d">
+                        <a id="lien" href="Techno.php" data-text="&nbsp;Veille&nbsp;Techno">&nbsp;Veille&nbsp;Techno</a>
+                    </li>
+                    <li style="--clr:#e4202d">
+                        <a class="projeth" id="lien" href="Projet.php" data-text="&nbsp;Projet">&nbsp;Projet<span class="material-symbols-outlined">expand_more</span></a>
+                            <ul1 id="projet">
+                                <li1><a href="Projet.php" data-text="&nbsp;Réalisé en cours (TP)">&nbsp;Réalisé en cours (TP)</a></li1>
+                                <li1><a href="Projet.php" data-text="&nbsp;Réalisé en stage">&nbsp;Réalisé en stage</a></li1>
+                            </ul1>
+                        </li>
+                    <li style="--clr:#e4202d">
+                        <a id="lien" class="contact" href="Contact.php" data-text="&nbsp;Contact">&nbsp;Contact</a>
+                    </li>
+                </ul>
+            </p1>
         </top>
             <div class="menu">Profil</div>
             <main>
                 <div class="titre">- a propos de moi</div>
-                    <p1>Je m'appelle Matthias Hautin, je suis âgé de 18 ans. Je suis étudiant à Noisy-Champs au lycée René Descartes;
+                    <p2>Je m'appelle Matthias Hautin, je suis âgé de 18 ans. Je suis étudiant à Noisy-Champs au lycée René Descartes;
                         actuellement en première année de BTS « SIO spécialité SLAM »
                         Services Informatiques aux Organisations spécialité en Solutions logicielles et Applications métier (SLAM).
                         Je suis intéressé par l'informatique, le développement et les nouvelles techniques depuis quelques années. C'est donc 
                         pour cela que naturellement je me suis tourné vers des études d'informatique, de développement.
                         J'ai effectué mes trois années d’études en BAC PRO « Système Informatique et Numérique ».</p1>
                 <div class="titre">- Experiences Professionnelles</div>
-                    <p1>
+                    <p2>
                         J'ai pu réaliser mes diverses périodes de stage dans différentes organisations disposant d’un service informatique; 
                         durant mes années de BAC PRO ainsi que mes années de BTS. Grâce à ses organismes j'ai pu acquérir de nouvelles 
                         compétences dans plusieurs domaines. Pendant mes périodes de stage j'ai eu la chance de travailler auprès d'informaticiens; 
                         Technicien informatique, administrateurs réseaux, chefs de projets. J'ai réalisé mes stages à la Mairie de Noisy-Le-Grand; 
                         à la direction des douanes et droits indirects à Montreuil.
-                    </p1>
+                    </p2>
                 <div class="titre">- Projet professionnel, etudes</div>   
-                    <p1>
+                    <p2>
                         Mon projet professionnel actuellement est de finir mes études de BTS. Puis je mettrai tout moyen à ma disposition
                         pour une poursuite d'études. Soit intégrer une Licence ou Licence pro en informatique dans le domaine de la programmation.
                         Et pour une finalité d'études je vise un Master.

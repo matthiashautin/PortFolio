@@ -111,14 +111,14 @@ div.form-row{
 .input-data input:focus ~ label ,.textarea textarea:focus ~ label,
 .input-data input:valid ~ label ,.textarea textarea:valid ~ label{
     transform: translateY(-35px);
-    color: #ff7f00;
+    color: #e4202d;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
 .textarea textarea:focus ~ label,
 .textarea textarea:valid ~ label{
     transform: translateY(-20px);
-    color: #ff7f00;
+    color: #e4202d;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
@@ -154,7 +154,7 @@ div.form-row{
     content: "";
     height: 100%;
     width: 100%;
-    background: #ff7f00;
+    background: #e4202d;
     transform: scaleX(0);
     transform-origin: center;
     transition: transform 0.3 ease; 
@@ -169,7 +169,7 @@ div.form-row{
     display: flex;
     margin-right: 20px;
     margin-top: 5px;
-    color: #ff7f00;
+    color: #e4202d;
 }
 .topfooter h4{
     color: rgba(0, 0, 0, 0.50);
@@ -278,5 +278,92 @@ h4 {
     }100%{
         top: -10%;
         left: -10%;
+    }
+}
+#check {
+    display: none;
+}
+.checkbtn {
+    font-size: 40px;
+    color: white;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+    display: none;
+}
+p1 {
+    position: relative;
+    font-size: 19.5px;
+    text-decoration: none;
+}
+@media screen and (max-width: 1006px) {
+    .clock {
+        display: none; 
+    }
+    .checkbtn {
+        display: flex;
+    }
+    ul {
+        display: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(47, 51, 177);
+        text-align: center;
+        left: 100%;
+        transition: all .5s;
+    }
+    ul li {
+        display: block;
+        margin-top: 60px;
+    }
+    ul1 {
+        display: none;
+    }
+    li1 {
+        display: none;
+    }
+    span.material-symbols-outlined {
+        display: none;
+    }
+    li:hover #projet {
+        border: none;
+    }
+    #auteur {
+        margin: 30px 0px 20px 0px;
+    }
+    .profil img {
+        margin-left: 50px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+@media screen and (max-width: 440px) {
+    .profil img {
+        margin-left: 30px;
+    }
+    .checkbtn {
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .profil img {
+        margin-left: 20px;
+    }
+    .checkbtn {
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 354px) {
+    .profil img {
+        margin-left: 10px;
+    }
+    .checkbtn {
+        margin-right: 10px;
+    }
+    #auteur {
+        margin-top: 30px;
+        margin-left: 0px;
     }
 }

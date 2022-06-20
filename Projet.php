@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="./style/card-glass.css">
     <link rel="stylesheet" href="./style/wave.css">
     <link rel="shortcut icon" href="./gd/mh.php">
-    <title>PortFolio</title>
-</head>
     <?php
         require_once "./include/icons.php";
         require_once "./include/fonts.php";
+        require_once "./include/link.php";
     ?>
+    <title>PortFolio</title>
+</head>
     <body>
         <top>
         <img id="fond" src="images/background1.jpg">
@@ -22,31 +23,36 @@
                 <img src="images/photo.jpg">
             </div>
             <p id="auteur">Matthias<br><span class="nom">Hautin</span></p>
+            <p1><input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas">&#xf039;</i>
+                </label>
             <ul>
-                <li style="--clr:#ffcb9c">
-                    <a id="lien" href="Acceuil.php" data-text="&nbsp;Accueil">&nbsp;Accueil</a>
+                <li style="--clr:#e4202d">
+                    <a id="lien" href="home.php" data-text="&nbsp;Accueil">&nbsp;Accueil</a>
                 </li>
-                <li style="--clr:#ffcb9c">
+                <li style="--clr:#e4202d">
                     <a id="lien" href="Profil.php" data-text="&nbsp;Profil">&nbsp;Profil</a>
                 </li>
-                <li style="--clr:#ffcb9c">
+                <li style="--clr:#e4202d">
                     <a id="lien" href="BtsSio.php" data-text="&nbsp;BtsSio">&nbsp;BtsSio</a>
                 </li>
-                <li style="--clr:#ffcb9c">
+                <li style="--clr:#e4202d">
                     <a id="lien" href="Techno.php" data-text="&nbsp;Veille&nbsp;Techno">&nbsp;Veille&nbsp;Techno</a>
                 </li>
-                <li style="--clr:#b85700">
-                <a class="projeth" id="lien" href="Projet.php" data-text="&nbsp;Projet">&nbsp;Projet<span class="material-symbols-outlined">expand_more</span></a>
+                <li style="--clr:#b4030f">
+                    <a class="projeth" id="lien" href="Projet.php" data-text="&nbsp;Projet">&nbsp;Projet<span class="material-symbols-outlined">expand_more</span></a>
                         <ul1 id="projet">
                             <li1><a name="tp" href="#tp" data-text="&nbsp;Réalisé en cours (TP)">&nbsp;Réalisé en cours (TP)</a></li1>
                             <li1><a name="stage" href="#stage" data-text="&nbsp;Réalisé en stage">&nbsp;Réalisé en stage</a></li1>
                         </ul1>
-                </li>
-                <li style="--clr:#ffcb9c">
+                    </li>
+                <li style="--clr:#e4202d">
                     <a id="lien" class="contact" href="Contact.php" data-text="&nbsp;Contact">&nbsp;Contact</a>
                 </li>
             </ul>
-        </top>
+        </p1>        
+    </top>
         <a class="projettp1" href="https://hautin.alwaysdata.net/Airbnb/PageMain.php" target="_blank"><br>Voir<br>Plus<br>Airbnb</a>
         <a class="projettp2" href="http://btsio.org/2022/hautinm/Quiestce/quiestce.php" target="_blank"><br>Voir<br>Plus<br>Erreur</a>
         <a class="projettp3" href="http://hautin.alwaysdata.net/Graph/logo.php" target="_blank"><br>Voir<br>Plus<br>Graph</a>
