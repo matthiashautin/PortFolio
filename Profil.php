@@ -22,9 +22,9 @@
                 <img src="images/photo.jpg">
             </div>
                 <p id="auteur">Matthias<br><span class="nom">Hautin</span></p>
-                <p1><input type="checkbox" id="check">
+                <input type="checkbox" id="check">
                     <label for="check" class="checkbtn">
-                        <i class="fas">&#xf039;</i>
+                        <img id="bar" src="./images/burger-bar.png">
                     </label>
                 <ul>
                     <li style="--clr:#e4202d">
@@ -50,7 +50,6 @@
                         <a id="lien" class="contact" href="Contact.php" data-text="&nbsp;Contact">&nbsp;Contact</a>
                     </li>
                 </ul>
-            </p1>
         </top>
             <div class="menu">Profil</div>
             <main>

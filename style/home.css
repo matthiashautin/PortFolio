@@ -55,6 +55,7 @@ body::before{
     width: 100%;
     height: 100%;
     z-index: 0;
+    filter: invert(80%);
 }
 top {
     position: fixed;
@@ -313,7 +314,14 @@ p1 {
     font-size: 19.5px;
     text-decoration: none;
 }
-
+#bar {
+    position: relative;
+    margin-top: -20px;
+    height: 55px;
+    width: 55px;
+    text-decoration: none;
+    filter: invert(100%);
+}
 @keyframes flechedroite {
     0%{
         margin-left: 0%;
@@ -365,6 +373,9 @@ p1 {
     }
 }    
 @media screen and (max-width: 1006px) {
+    #fond {
+        height: 7em;
+    }
     .clock {
         display: none; 
     }
@@ -397,7 +408,7 @@ p1 {
         border: none;
     }
     #auteur {
-        margin: 30px 0px 20px 0px;
+        margin: 21px 0px 20px 0px;
     }
     .profil img {
         margin-left: 50px;
@@ -492,7 +503,6 @@ p1 {
         margin-right: 10px;
     }
     #auteur {
-        margin-top: 30px;
         margin-left: 0px;
     }
 }

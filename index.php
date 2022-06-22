@@ -25,7 +25,7 @@
                 <p id="auteur">Matthias<br><span class="nom">Hautin</span></p>
                 <p1><input type="checkbox" id="check">
                     <label for="check" class="checkbtn">
-                        <i class="fas">&#xf039;</i>
+                        <img id="bar" src="./images/burger-bar.png">
                     </label>
                 <ul>
                     <li style="--clr:#b4030f">

@@ -57,7 +57,7 @@ div.menu{
     -webkit-text-stroke: 3px var(--pastel);
 }
 main {
-    margin: 50px 15em 0px 15em;
+    margin: 50px 10em 0px 10em;
 }
 main .titre {
     text-transform: uppercase;
@@ -128,10 +128,15 @@ p1 {
     font-size: 19.5px;
     text-decoration: none;
 }
+#bar {
+    position: relative;
+    margin-top: -20px;
+    height: 55px;
+    width: 55px;
+    text-decoration: none;
+    filter: invert(100%);
+}
 @media screen and (max-width: 1006px) {
-    .clock {
-        display: none; 
-    }
     .checkbtn {
         display: flex;
     }
@@ -169,6 +174,141 @@ p1 {
     #check:checked ~ ul{
         left: 0;
     }
+    main {
+        margin: 50px 5em 0px 5em;
+    }
+}@media screen and (max-width: 1700px) {
+    main .btn-black {
+        width: 550px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 1688px) {
+    main .btn-black {
+        width: 450px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .pdf {
+        margin: 0 -50px 0 -50px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    main .btn-black {
+        width: 350px;
+        margin-left: 40px;
+    }
+    .pdf {
+        margin: 0 -120px 0 -100px;
+    }
+}
+@media screen and (max-width: 1020px) {
+    main .btn-black {
+        width: 250px;
+        margin-left: 40px;
+    }
+    .pdf {
+        margin: 0 -100px 0 0px;
+    }
+}
+@media screen and (max-width: 1006px) {
+    #fond {
+        height: 7em;
+    }
+    .clock {
+        display: none; 
+    }
+    .checkbtn {
+        display: flex;
+    }
+    ul {
+        display: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(47, 51, 177);
+        text-align: center;
+        left: 100%;
+        transition: all .5s;
+    }
+    ul li {
+        display: block;
+        margin-top: 60px;
+    }
+    ul1 {
+        display: none;
+    }
+    li1 {
+        display: none;
+    }
+    span.material-symbols-outlined {
+        display: none;
+    }
+    li:hover #projet {
+        border: none;
+    }
+    #auteur {
+        margin: 21px 0px 20px 0px;
+    }
+    .profil img {
+        margin-left: 50px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+@media screen and (max-width: 830px) {
+    main {
+        margin: 
+        50px 3em 0px 3em;
+    }
+    main .titre {
+        margin: 
+        50px 0px 50px 10px;
+        font-size: 30px;
+    }
+    p2 {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 770px) {
+    main .btn-black {
+        width: 500px;
+    }
+    .pdf {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 678px) {
+    main .btn-black {
+        width: 430px;
+    }
+}
+@media screen and (max-width: 600px) {
+    main .titre {
+        margin: 
+        50px 0px 50px -25px;
+        font-size: 25px;
+    }
+    main .btn-black {
+        width: 380px;
+    }
+}
+@media screen and (max-width: 554px) {
+    main .btn-black {
+        width: 330px;
+    }
+}
+@media screen and (max-width: 500px) {
+    main .titre {
+        margin: 
+        50px 0px 50px -25px;
+        font-size: 20px;
+    }
+    main .btn-black {
+        width: 280px;
+        margin-left: 20px;
+    }
 }
 @media screen and (max-width: 440px) {
     .profil img {
@@ -177,6 +317,22 @@ p1 {
     .checkbtn {
         margin-right: 30px;
     }
+    p2 {
+        font-size: 17px;
+    }
+    main .titre {
+        margin: 
+        50px 0px 50px -25px;
+        font-size: 18px;
+    }
+    p2 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 420px) {
+    main .btn-black {
+        width: 250px;
+    }
 }
 @media screen and (max-width: 375px) {
     .profil img {
@@ -184,6 +340,9 @@ p1 {
     }
     .checkbtn {
         margin-right: 20px;
+    }
+    main .btn-black {
+        width: 200px;
     }
 }
 @media screen and (max-width: 354px) {
@@ -194,7 +353,6 @@ p1 {
         margin-right: 10px;
     }
     #auteur {
-        margin-top: 30px;
         margin-left: 0px;
     }
 }

@@ -16,7 +16,6 @@
     ?>
     <title>PortFolio</title>
 </head>
-
 <?php
     if((isset($_GET['action']) && $_GET['action']=="send")){
         $nom= $prenom = $email = $message ="";
@@ -79,6 +78,7 @@
     }
 ?>
     <body>
+        <img class="backgroundimage" src="./images/backgroundimage.png">
         <top>
         <img id="fond" src="images/background1.jpg">
             <div class="profil">
@@ -87,7 +87,7 @@
             <p id="auteur">Matthias<br><span class="nom">Hautin</span></p>
             <p1><input type="checkbox" id="check">
                 <label for="check" class="checkbtn">
-                    <i class="fas">&#xf039;</i>
+                    <img id="bar" src="./images/burger-bar.png">
                 </label>
             <ul>
                 <li style="--clr:#e4202d">
