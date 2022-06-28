@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style/wave.css">
     <link rel="shortcut icon" href="./gd/mh.php">
     <link rel="stylesheet" href="./style/clock.css">
+    <link rel="stylesheet" href="./style/loader.css">
     <?php
         require_once "./include/icons.php";
         require_once "./include/fonts.php";
@@ -16,6 +17,18 @@
     <title>PortFolio</title>
 </head>
     <body>
+    <div class="loader">
+        <span class="lettre">C</span>
+        <span class="lettre">H</span>
+        <span class="lettre">A</span>
+        <span class="lettre">R</span>
+        <span class="lettre">G</span>
+        <span class="lettre">E</span>
+        <span class="lettre">M</span>
+        <span class="lettre">E</span>
+        <span class="lettre">N</span>
+        <span class="lettre">T</span>
+    </div>  
         <img class="backgroundimage" src="./images/backgroundimage.png">
         <top>
             <img id="fond" src="images/background1.jpg">
@@ -68,5 +81,6 @@
                 <div class="more">Voir Plus</div>
             </a>
         <script src="script/script.js"></script>  
+        <script src="script/app.js"></script>
     </body>
 </html>

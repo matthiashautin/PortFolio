@@ -56,13 +56,14 @@ body::before{
     height: 100%;
     z-index: 0;
     filter: invert(80%);
+    z-index: -5;
 }
 top {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
     box-shadow: 0px 0px 15px rgba(0,0,0,1);
+    z-index: 10000;
 }
 p {
     margin-bottom: 10px;
@@ -109,6 +110,7 @@ ul {
     border-bottom: 3px solid var(--gray);
     background-color: rgba(0, 0, 0, 0.4);
     padding: 5px;
+    z-index: 1000;
 }
 ul li {
     display: inherit;
@@ -276,6 +278,7 @@ main .left .gras {
     color: #FFF;
 }
 .flechedroite {
+    position: relative;
     height: 65%;
     width: 65%;
     filter: invert(50%);
@@ -414,7 +417,9 @@ p1 {
         margin-left: 50px;
     }
     #check:checked ~ ul{
-        left: 0;
+        position: relative;
+        left: 0%;
+        z-index: 99999;
     }
 }
 @media screen and (max-width: 950px) {

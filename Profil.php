@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style/profil.css">
     <link rel="stylesheet" href="./style/wave.css">
     <link rel="shortcut icon" href="./gd/mh.php">
+    <link rel="stylesheet" href="./style/loader.css">
     <?php
         require_once "./include/fonts.php";
         require_once "./include/icons.php";
@@ -16,6 +17,18 @@
     <title>PortFolio</title>
 </head>
     <body>
+    <div class="loader">
+        <span class="lettre">C</span>
+        <span class="lettre">H</span>
+        <span class="lettre">A</span>
+        <span class="lettre">R</span>
+        <span class="lettre">G</span>
+        <span class="lettre">E</span>
+        <span class="lettre">M</span>
+        <span class="lettre">E</span>
+        <span class="lettre">N</span>
+        <span class="lettre">T</span>
+    </div>  
         <top>
         <img id="fond" src="images/background1.jpg">
             <div class="profil">
@@ -56,10 +69,11 @@
                 <div class="titre">- a propos de moi</div>
                     <p2>Je m'appelle Matthias Hautin, je suis âgé de 18 ans. Je suis étudiant à Noisy-Champs au lycée René Descartes;
                         actuellement en première année de BTS « SIO spécialité SLAM »
-                        Services Informatiques aux Organisations spécialité en Solutions logicielles et Applications métier (SLAM).
+                        Services Informatiques aux Organisations spécialité en Solutions logicielles et Applications Métier (SLAM).
                         Je suis intéressé par l'informatique, le développement et les nouvelles techniques depuis quelques années. C'est donc 
                         pour cela que naturellement je me suis tourné vers des études d'informatique, de développement.
-                        J'ai effectué mes trois années d’études en BAC PRO « Système Informatique et Numérique ».</p1>
+                        J'ai effectué mes trois années d’études en BAC PRO « Système Informatique et Numérique ».
+                    </p2>
                 <div class="titre">- Experiences Professionnelles</div>
                     <p2>
                         J'ai pu réaliser mes diverses périodes de stage dans différentes organisations disposant d’un service informatique; 
@@ -68,11 +82,12 @@
                         Technicien informatique, administrateurs réseaux, chefs de projets. J'ai réalisé mes stages à la Mairie de Noisy-Le-Grand; 
                         à la direction des douanes et droits indirects à Montreuil.
                     </p2>
-                <div class="titre">- Projet professionnel, etudes</div>   
+                <div class="titre">- Projets professionnels, etudes</div>   
                     <p2>
                         Mon projet professionnel actuellement est de finir mes études de BTS. Puis je mettrai tout moyen à ma disposition
                         pour une poursuite d'études. Soit intégrer une Licence ou Licence pro en informatique dans le domaine de la programmation.
                         Et pour une finalité d'études je vise un Master.
+                    </p2>
                 <div class="titre">- Curriculum Vitae</div> 
                     <div class="pdf">
                         <a class="btn-black" href="pdf/CV.pdf" target="_blank"><span class="material-symbols-outlined">visibility</span>&nbsp;Consulter CV</a>
@@ -85,5 +100,6 @@
             <div class="wave wave3"></div>
             <div class="wave wave4"></div>
         </section>
+        <script src="script/app.js"></script>
     </body>
 </html>

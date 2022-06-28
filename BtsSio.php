@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/btssio.css">
     <link rel="shortcut icon" href="./gd/mh.php">
+    <link rel="stylesheet" href="./style/loader.css">
     <?php
         require_once "./include/icons.php";
         require_once "./include/fonts.php";
@@ -15,13 +16,25 @@
     <title>PortFolio</title>
 </head>
     <body>
+    <div class="loader">
+        <span class="lettre">C</span>
+        <span class="lettre">H</span>
+        <span class="lettre">A</span>
+        <span class="lettre">R</span>
+        <span class="lettre">G</span>
+        <span class="lettre">E</span>
+        <span class="lettre">M</span>
+        <span class="lettre">E</span>
+        <span class="lettre">N</span>
+        <span class="lettre">T</span>
+    </div>
         <top>
         <img id="fond" src="images/background1.jpg">
             <div class="profil">
                 <img src="images/photo.jpg">
             </div>
             <p id="auteur">Matthias<br><span class="nom">Hautin</span></p>
-            <p1><input type="checkbox" id="check">
+            <input type="checkbox" id="check">
                 <label for="check" class="checkbtn">
                     <img id="bar" src="./images/burger-bar.png">
                 </label>
@@ -49,8 +62,25 @@
                     <a id="lien" class="contact" href="Contact.php" data-text="&nbsp;Contact">&nbsp;Contact</a>
                 </li>
             </ul>
-        </p1>
     </top>
         <div class="menu">Bts sio</div>
+        <main>
+            <div class="titre">- a propos du bts sio</div>
+                <p2>
+                    Le BTS SIO est un diplôme national en informatique de niveau bac+2. Il peut être préparé gratuitement en
+                    deux ans dans quelque 130 lycées publics ou privés sous contrat présents sur tout le territoire français. 
+                    Il est aussi proposé par des établissements privés sous contrat d'association avec l'état ou non.
+                </p2>
+                <img class="competences_bts" src="images/competences_bts_sio.png">
+            <div class="titre">- Option A<br><class id="sous-titre">solutions d'infrastructure, systèmes et réseaux (SISR)</div>
+                <p2>
+
+                </p2>
+            <div class="titre">- Option B<br><class id="sous-titre">Solutions logicielles et Applications Métier (SLAM)</div>
+                <p2>
+
+                </p2>
+        </main>
+        <script src="script/app.js"></script>
     </body>
 </html>

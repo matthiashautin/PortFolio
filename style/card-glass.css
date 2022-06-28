@@ -40,7 +40,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    z-index: 1;
 }
 #containerleft {
     position: relative;
@@ -48,7 +47,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    z-index: 1;
 }
 #containerright {
     position: relative;
@@ -58,7 +56,6 @@ body {
     min-height: 50vh;
     width: 100%;
     flex-wrap: wrap;
-    z-index: 1;
     margin-left: 140px;
 }
 .container1 .card{
@@ -263,4 +260,7 @@ body {
 }
 #cardright {
     margin-left: 4em;
+}
+#check:checked .container1 .card{
+    z-index: -15;
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style/card-glass.css">
     <link rel="stylesheet" href="./style/wave.css">
     <link rel="shortcut icon" href="./gd/mh.php">
+    <link rel="stylesheet" href="./style/loader.css">
     <?php
         require_once "./include/icons.php";
         require_once "./include/fonts.php";
@@ -17,13 +18,25 @@
     <title>PortFolio</title>
 </head>
     <body>
+    <div class="loader">
+        <span class="lettre">C</span>
+        <span class="lettre">H</span>
+        <span class="lettre">A</span>
+        <span class="lettre">R</span>
+        <span class="lettre">G</span>
+        <span class="lettre">E</span>
+        <span class="lettre">M</span>
+        <span class="lettre">E</span>
+        <span class="lettre">N</span>
+        <span class="lettre">T</span>
+    </div>
         <top>
         <img id="fond" src="images/background1.jpg">
             <div class="profil">
                 <img src="images/photo.jpg">
             </div>
             <p id="auteur">Matthias<br><span class="nom">Hautin</span></p>
-            <p1><input type="checkbox" id="check">
+            <input type="checkbox" id="check">
                 <label for="check" class="checkbtn">
                     <img id="bar" src="./images/burger-bar.png">         
                 </label>
@@ -50,8 +63,7 @@
                 <li style="--clr:#e4202d">
                     <a id="lien" class="contact" href="Contact.php" data-text="&nbsp;Contact">&nbsp;Contact</a>
                 </li>
-            </ul>
-        </p1>        
+            </ul>        
     </top>
         <a class="projettp1" href="https://hautin.alwaysdata.net/Airbnb/PageMain.php" target="_blank"><br>Voir<br>Plus<br>Airbnb</a>
         <a class="projettp2" href="http://btsio.org/2022/hautinm/Quiestce/quiestce.php" target="_blank"><br>Voir<br>Plus<br>Erreur</a>
@@ -183,6 +195,7 @@
                 <div class="wave wave3"></div>
                 <div class="wave wave4"></div>
             </section>
+        <script src="script/app.js"></script>
     </body>
 </html>
 <!--

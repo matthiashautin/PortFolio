@@ -55,6 +55,7 @@ div.menu{
     color: var(--pastel);
     font-family: 'Nunito Sans', sans-serif;
     -webkit-text-stroke: 3px var(--pastel);
+    z-index: -1;
 }
 main {
     margin: 50px 10em 0px 10em;
@@ -135,6 +136,7 @@ p1 {
     width: 55px;
     text-decoration: none;
     filter: invert(100%);
+    z-index: 1000;
 }
 @media screen and (max-width: 1006px) {
     .checkbtn {
@@ -177,7 +179,8 @@ p1 {
     main {
         margin: 50px 5em 0px 5em;
     }
-}@media screen and (max-width: 1700px) {
+}
+@media screen and (max-width: 1700px) {
     main .btn-black {
         width: 550px;
         margin-left: 50px;
